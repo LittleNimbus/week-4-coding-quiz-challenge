@@ -23,4 +23,14 @@ function startQuiz() {
     
       }, 1000)
     }
-    
+
+    startButton.addEventListener ("click", function () {
+        startQuiz()
+        startButton.textContent = "What Does CSS stand for?";
+        console.log("start button clicked")
+        buttonOne.textContent = "Computer Science Section";
+        buttonTwo.textContent = "Cascading Style Sheets";
+        buttonThree.textContent = "Calculated Sheet Style";
+        buttonFour.textContent = "Configure System Style";
+        document.getElementById("progress").style.display = 'none'
+    });     
