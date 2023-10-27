@@ -34,3 +34,12 @@ function startQuiz() {
         buttonFour.textContent = "Configure System Style";
         document.getElementById("progress").style.display = 'none'
     });     
+
+    buttonTwo.addEventListener ("click", function() { 
+        startButton.textContent = "Which of the following uses the correct JavaScript syntax?";
+        console.log("Correct! next question")
+        buttonOne.textContent = ' var studentname = "Otis"; ';
+        buttonTwo.textContent =  ' var studentName = "Otis"; ';
+        buttonThree.textContent = 'var Student Name = "Otis"; ';
+        buttonFour.textContent = ' VAR student name = "Otis"; ';
+    })
