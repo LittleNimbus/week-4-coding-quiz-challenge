@@ -43,3 +43,28 @@ function startQuiz() {
         buttonThree.textContent = 'var Student Name = "Otis"; ';
         buttonFour.textContent = ' VAR student name = "Otis"; ';
     })
+
+    function quesOneIncorrect () {
+    
+        var timeSubtract = setInterval (function() {         
+           
+            startButton.textContent = "Which of the following uses the correct JavaScript syntax?";
+            buttonOne.textContent = ' var studentname = "Otis"; ';
+            buttonTwo.textContent =  ' var studentName = "Otis"; ';
+            buttonThree.textContent = 'var Student Name = "Otis"; ';
+            buttonFour.textContent = ' VAR student name = "Otis"; ';
+            document.getElementById("progress").textContent = "Incorrect answers: 1 ";
+        }); 
+        }
+            
+        buttonOne.addEventListener ("click", function () {
+        quesOneIncorrect()
+        return;   
+        }
+        );
+        
+        buttonThree.addEventListener ("click", function () {
+           quesOneIncorrect()
+            return;   
+            }
+            );
