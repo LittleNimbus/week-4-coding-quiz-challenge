@@ -15,3 +15,14 @@ N/a
 Original HTML and CSS code from codepen.io
 Creator: Navaarun Bhattacherjee
 link: https://codepen.io/navaarun/pen/GEMKdb
+
+## Screenshot
+
+![image](https://github.com/LittleNimbus/week-4-coding-quiz-challenge/assets/145250486/364b713b-a23b-4d23-9471-f7e7635d2310)
+
+## Link to Page
+
+https://littlenimbus.github.io/week-4-coding-quiz-challenge/ 
+
+
+
