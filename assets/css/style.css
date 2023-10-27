@@ -17,7 +17,7 @@ body {
 .container h1 {
     background: #405CA1;
     color: #fff;
-    font-size: 60px;
+    font-size: 35px;
     text-align: center;
     padding: 2px 0 13px 0;
     border-radius: 25px;
@@ -35,7 +35,7 @@ margin-top: 30px;
 #btn0, #btn1, #btn2, #btn3 {
     background: #405CA1;
     width: 250px;
-    font-size: 25px;
+    font-size: 18px;
     border: 1px solid #1d3c6a;
     border-radius: 25px;
     margin: 10px 40px 20px 7.6px;
